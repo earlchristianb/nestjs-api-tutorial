@@ -1,11 +1,11 @@
 import { Injectable } from "@nestjs/common";
+import { PrismaClient } from "@prisma/client";
 
 
-@Injectable({})
+
+@Injectable()
 export class AuthService{
-
    
-
     signup() {
         return {message:'You are signed up', success:true}
     }
